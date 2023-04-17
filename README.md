@@ -9,27 +9,33 @@ This is a Demo application made using PythonCC and PySide2
 ## On Arch Linux(Native or WSL)
 
 Make sure Python is installed then run the following commands
->sudo pacman -Syu
 
->sudo pacman -S python-occ-core
+```
+sudo pacman -Syu
+sudo pacman -S python-occ-core
+```
 
->cd PythonOCC-app
+Now clone the repository and run
 
->python core_pyprac.py
+```
+cd PythonOCC-app
+python core_pyprac.py
+```
 
 ## On Windows(Using Conda)
 
 In conda prompt, enter: 
 
->conda create -n PythonOCC
-
->conda activate PythonOCC
-
->conda install -c conda-forge pythonocc-core
+```
+conda create -n PythonOCC
+conda activate PythonOCC
+conda install -c conda-forge pythonocc-core
+```
 
 Now clone the repository.
 Then run:
 
->cd PythonOCC-app
-
->python core_pyprac.py
+```
+cd PythonOCC-app
+python core_pyprac.py
+```
